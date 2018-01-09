@@ -1,0 +1,11 @@
+[package]
+name = "ven"
+description = "Virtual Event Network, to recreate file system events from a host machine onto a virtual machine."
+version = "0.1.0"
+authors = ["Brian Pearce"]
+
+[dependencies]
+docopt = "0.8.1"
+serde = "1.0.16"
+serde_derive = "1.0.16"
+notify = "4.0.0"
